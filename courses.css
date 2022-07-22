@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 3.75rem;
+    color: #FF4081;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.title-courses p{
+    color: #555555;
+    font-size: 1.25rem;
+    margin-left: 70px; 
+}
+
+.card-courses {
+    display: flex;
+    padding: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    .card-courses {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px 5px;    
+
+    }
+
+    .title-courses h1 {
+        padding-top: 20px;
+    }
+
+    .title-courses h1, .title-courses p{
+        margin: 1px;
+        padding-left: 20px;
+
+    }
+
+    .title-courses p {
+        padding-bottom: 30px;
+    }
+
+ 
+}
+
+
+.text-courses h2{
+    color: #FF4081;
+    font-size: 2.188rem;
+    padding: 0px 30px;
+    padding-bottom: 40px;
+
+}
+
+.text-courses p {
+    font-size: 1.125rem;
+    margin: 0;
+    padding: 0px 30px;
+    padding-bottom: 40px;
+    color:  #000000;
+}
+
+.btn-courses{
+    font-size: 1.25rem;
+    padding: 15px 60px;
+    margin-left: 30px;
+    background-color: #419488;
+    color: white;
+    border-radius: 62px;
+    border-color: #419488;
+    box-shadow:  1px 1px 1px black;
+
+
+}
+
+hr {
+    border: 3px solid #C4C4C4;
+    background-color: #C4C4C4;
+    margin: 40px;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .text-courses h2 {
+        padding-top: 30px;
+        justify-content: left;
+    } 
+
+  
+
+    section {
+        padding-bottom: 70px;
+    }
+
+    .card-courses {
+        padding: 15px;
+        justify-content: left;
+    } 
+
+    .card-courses a {
+        padding: 35px;
+    }
+
+    }
+
+    @media screen and (max-width: 1492px) {
+        .card-courses {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .text-courses h2 {
+            padding-top: 20px;
+            padding-left: 0px;
+        }
+        .text-courses p  {
+            padding-left: 0px;
+        }
+
+        .text-courses a {
+            margin: 0px;
+        }
+
+
+        
+    }

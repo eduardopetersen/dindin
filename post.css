@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-text-post {
+    text-align: center;
+    padding: 100px;
+}
+
+
+
+.img-post {
+    padding-top: 80px;
+    width: 80%;
+
+}
+
+.text-post h1{
+    font-size: 2.5rem;
+    color: #FF4081;
+    
+}
+
+.text-date {
+    padding-top: 10px;
+    font-size: 1.125rem;
+    color:  #9D9D9D;
+}
+
+.text-post h2 {
+    font-size: 1.625rem;
+    color: #419488;
+}
+
+.text-post-p {
+    font-size: 1.625rem;
+    color: #000000;
+}
+
+.only-text-post {
+    text-align: left;
+    padding: 20px 130px;
+}
+
+.text-post-p  {
+    padding-top: 30px;
+}
+
+.only-text-post h2 {
+    padding-top: 100px;
+
+}
+
+.container-section h1 {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 3.125rem;
+    color: #FF4081;
+}
+
+.course-section {
+    padding-top: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .section-text-post {
+        padding: 10px;
+    }
+
+    .text-post h1 {
+        padding-top: 30px;
+    }
+    .only-text-post {
+        text-align: left;
+        margin: 0;
+        padding: 45px;
+        justify-content: left;
+    }
+
+    .container-section h1{
+        font-size: 2rem;
+
+    }
+}
+
+
+@media screen and (max-width: 1492px) {
+    .section-text-post {
+        padding: 10px;
+    }
+
+    .text-post h1 {
+        padding-top: 30px;
+    }
+    .only-text-post {
+        text-align: left;
+        margin: 0;
+        padding: 45px;
+        justify-content: left;
+    }
+
+    .container-section h1{
+        font-size: 2rem;
+
+    }
+}
+
+
+

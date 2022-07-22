@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card-course {
+    display: flex;
+    justify-content: center;  
+    padding: 50px;  
+}
+
+
+
+
+.text-course {
+    padding: 40px;
+    width: 50%;
+    
+    
+}
+
+.text-course h2 {
+    color: #FF4081;
+    font-size: 3.438rem;
+    font-weight: 700;
+}
+
+.text-course p {
+    color: #000000;
+    font-size: 1.25rem;
+    padding-top: 20px;
+}
+
+
+.card-video-course {
+    display: flex;
+    justify-content: center;  
+    padding: 50px;
+    background-color: #F7F7F7;
+
+}
+
+
+
+.text-video-course {
+        padding: 40px;
+        width: 35%;
+        
+         
+    }
+
+    .text-video-course h2 {
+        color: #FF4081;
+        font-size: 2.188rem;
+        font-weight: 700;
+    }
+
+    .text-video-course p {
+        color: #000000;
+        font-size: 1.25rem;
+        padding-top: 20px;
+    }
+
+    .iframe-course {
+        width: 40%;
+    }
+
+    hr {
+        border: 1px solid #C4C4C4;
+        background-color: #C4C4C4;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    @media screen and (max-width: 600px) {
+        .card-course {
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 10px 5px;
+    
+        }
+    
+        .text-course h2 {
+            font-size: 2rem;
+        }
+        
+        .card-video-course {
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0px;
+            width: 100%;    
+     
+        }
+
+        .text-course {
+            padding: 40px;
+            width: 100%;
+            
+            
+        }
+
+        .text-video-course {
+            padding: 40px;
+            width: 100%; 
+             
+        }
+
+        .iframe-course {
+            width: 100%;
+            padding: 5px;
+            padding-top: 100px;
+        }
+
+        
+    }
+
+    @media screen and (max-width: 1492px) {
+        .img-course{
+            padding-top: 100px;
+        }
+
+        .text-course h2 {
+            font-size: 2.5rem;
+        }
+
+        .iframe-course {
+            width: 100%;
+ 
+        }
+
+        .text-video-course {
+            width: 100%;
+        }
+        }
+
+
+    
+
+    
+
+    
+    
